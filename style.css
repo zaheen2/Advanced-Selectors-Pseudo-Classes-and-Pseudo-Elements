@@ -1,0 +1,39 @@
+*{
+    background: black;
+}
+.h1{
+    background-color: rgb(62, 62, 62);
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(184, 184, 184); 
+    color: lightgreen;
+}
+.p1{
+    text-align: center;
+    color: rgb(252, 135, 135);
+    text-shadow: 2px 2px 3px rgb(253, 59, 59);
+}
+.h2{
+    background-color: rgb(62, 62, 62);
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(184, 184, 184); 
+    color: lightgreen;
+}
+.list-platforms{
+    font-size: 30px;
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px gray;
+}
+.list-platforms li::before{
+    content: "📱";
+    margin-right: 10px;
+}
+.list-platforms li{
+    margin-bottom: 10px;
+}
+.list-platforms :hover{
+    color: rgb(0, 160, 247);
+    cursor: pointer;
+}
